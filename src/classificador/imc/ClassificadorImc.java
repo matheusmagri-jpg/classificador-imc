@@ -85,7 +85,7 @@ public class ClassificadorImc {
         System.out.print("Escolha uma opcao: ");
         int opcao = scanner.nextInt();
 
-        // Switch
+    
         switch (opcao) {
 
             case 1:
