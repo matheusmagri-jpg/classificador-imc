@@ -95,12 +95,12 @@ public class ClassificadorImc {
 
             case 2:
                 System.out.println(
-                        "Recomendacao: mantenha uma alimentacao equilibrada " + "e pratique atividades fisicas regularmente.");
+                        "Recomendacao: Mantenha uma alimentacao equilibrada " + "e pratique atividades fisicas regularmente.");
                 break;
 
             case 3:
                 System.out.println(
-                        "Recomendacao: mantenha habitos saudaveis " + "e acompanhamento adequado.");
+                        "Recomendacao: Mantenha habitos saudaveis " + "e acompanhamento adequado.");
                 break;
 
             default:
