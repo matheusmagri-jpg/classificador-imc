@@ -77,12 +77,12 @@ public class ClassificadorImc {
         System.out.println("O IMC esta " + mensagem + " da faixa ideal.");
 
        
-        System.out.println("\n===== FAIXA ETÁRIA =====");
-        System.out.println("1 - Criança/Adolescente");
+        System.out.println("\n===== FAIXA ETARIA =====");
+        System.out.println("1 - Crianca/Adolescente");
         System.out.println("2 - Adulto");
         System.out.println("3 - Idoso");
 
-        System.out.print("Escolha uma opção: ");
+        System.out.print("Escolha uma opcao: ");
         int opcao = scanner.nextInt();
 
         // Switch
@@ -90,21 +90,21 @@ public class ClassificadorImc {
 
             case 1:
                 System.out.println(
-                        "Recomendação: para crianças e adolescentes, " + "a avaliação do IMC deve considerar idade e desenvolvimento.");
+                        "Recomendacao: para criancas e adolescentes, " + "a avaliação do IMC deve considerar idade e desenvolvimento.");
                 break;
 
             case 2:
                 System.out.println(
-                        "Recomendação: mantenha uma alimentação equilibrada " + "e pratique atividades físicas regularmente.");
+                        "Recomendacao: mantenha uma alimentacao equilibrada " + "e pratique atividades fisicas regularmente.");
                 break;
 
             case 3:
                 System.out.println(
-                        "Recomendação: mantenha hábitos saudáveis " + "e acompanhamento adequado.");
+                        "Recomendacao: mantenha habitos saudaveis " + "e acompanhamento adequado.");
                 break;
 
             default:
-                System.out.println("Opção inválida.");
+                System.out.println("Opcao invalida.");
                 break;
         }
 
