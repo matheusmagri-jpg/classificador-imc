@@ -1,3 +1,4 @@
+
 # ⚖️ Classificador de IMC
 
 Aplicação web desenvolvida para calcular o Índice de Massa Corporal (IMC) e apresentar a classificação correspondente com base no peso e na altura informados pelo usuário.
@@ -8,7 +9,7 @@ Aplicação web desenvolvida para calcular o Índice de Massa Corporal (IMC) e a
 
 ## 📸 Demonstração
 
-<!-- Adicione aqui uma imagem ou GIF do projeto -->
+<img width="1024" height="1024" alt="gen_3J5qY9GBkHf156GUX0cxIQL2IfG" src="https://github.com/user-attachments/assets/99dc82ad-9b46-4106-9d98-f2bf8f0b6b8b" />
 
 ![Demonstração do projeto](./assets/preview.png)
 
