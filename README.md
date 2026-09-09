@@ -1,71 +1,73 @@
-# Classificador IMC
+# ⚖️ Classificador de IMC
 
-Aplicação em Java para calcular o Índice de Massa Corporal (IMC) e classificar o resultado (abaixo do peso, peso normal, sobrepeso, obesidade etc.), a partir do peso e da altura informados pelo usuário.
+Aplicação web desenvolvida para calcular o Índice de Massa Corporal (IMC) e apresentar a classificação correspondente com base no peso e na altura informados pelo usuário.
 
-Projeto desenvolvido como exercício de estudo de Java e Programação Orientada a Objetos (POO).
+> Projeto desenvolvido com o objetivo de praticar HTML, CSS, JavaScript, manipulação do DOM e lógica de programação.
 
-## 🧮 Como funciona
+---
 
-O IMC é calculado pela fórmula:
+## 📸 Demonstração
 
-```
-IMC = peso (kg) / (altura (m) × altura (m))
-```
+<!-- Adicione aqui uma imagem ou GIF do projeto -->
 
-Com base no valor obtido, o programa classifica o resultado de acordo com as faixas padrão de IMC:
+![Demonstração do projeto](./assets/preview.png)
 
-| Faixa de IMC     | Classificação      |
-|-------------------|---------------------|
-| Abaixo de 18.5     | Abaixo do peso       |
-| 18.5 – 24.9        | Peso normal          |
-| 25.0 – 29.9        | Sobrepeso             |
-| 30.0 – 34.9        | Obesidade grau I      |
-| 35.0 – 39.9        | Obesidade grau II     |
-| 40.0 ou mais       | Obesidade grau III    |
+---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Funcionalidades
 
-- Java
-- NetBeans IDE (projeto gerado via Ant)
+- Cálculo automático do IMC;
+- Classificação do resultado;
+- Validação dos campos preenchidos;
+- Exibição de mensagens para dados inválidos;
+- Interface simples e intuitiva;
+- Atualização dinâmica do resultado na página;
+- Formatação do IMC com casas decimais.
 
-## ▶️ Como executar
+---
 
-### Pelo NetBeans
+## 🧮 Como o IMC é calculado?
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/matheusmagri-jpg/classificador-imc.git
-   ```
-2. Abra o projeto no NetBeans (`File > Open Project`).
-3. Execute o projeto (`Run > Run Project` ou `F6`).
+O cálculo é realizado utilizando a seguinte fórmula:
 
-### Pela linha de comando
+$$
+IMC = \frac{peso}{altura^2}
+$$
 
-1. Compile os arquivos-fonte:
-   ```bash
-   javac -d build/classes src/classificador/imc/*.java
-   ```
-2. Execute a classe principal:
-   ```bash
-   java -cp build/classes classificador.imc.Main
-   ```
-   > Ajuste o nome da classe principal conforme o arquivo real do projeto, caso seja diferente.
+Onde:
 
-## 📁 Estrutura do projeto
+- `peso` é informado em quilogramas;
+- `altura` é informada em metros.
 
-```
+### Classificação do IMC
+
+| Resultado | Classificação |
+|:---:|---|
+| Abaixo de 18,5 | Abaixo do peso |
+| De 18,5 a 24,9 | Peso normal |
+| De 25,0 a 29,9 | Sobrepeso |
+| De 30,0 a 34,9 | Obesidade grau I |
+| De 35,0 a 39,9 | Obesidade grau II |
+| Acima de 40,0 | Obesidade grau III |
+
+> A classificação apresentada é apenas informativa e não substitui a avaliação de um profissional da saúde.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5** — estrutura da aplicação;
+- **CSS3** — estilização e layout;
+- **JavaScript** — cálculo do IMC e interação com a página;
+- **DOM** — manipulação dos elementos HTML.
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
 classificador-imc/
-├── src/classificador/imc/   # Código-fonte da aplicação
-├── nbproject/                # Configurações do projeto NetBeans
-├── build.xml                 # Script de build (Ant)
-├── manifest.mf                # Manifesto da aplicação
+├── index.html
+├── style.css
+├── script.js
 └── README.md
-```
-
-## 📌 Status
-
-Projeto de estudo, em desenvolvimento.
-
-## 📄 Licença
-
-Este projeto é de uso livre para fins de estudo.
